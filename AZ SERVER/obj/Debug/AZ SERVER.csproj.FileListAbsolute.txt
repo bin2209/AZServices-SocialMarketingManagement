@@ -1,0 +1,19 @@
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ SERVER.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.Properties.Resources.resources
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ SERVER.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.Login.resources
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.Formmain.resources
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.statistics.resources
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.Closedialog.resources
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\bin\Debug\AZ SERVER V10.24.exe.config
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\bin\Debug\AZ SERVER V10.24.exe.manifest
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\bin\Debug\AZ SERVER V10.24.application
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\bin\Debug\AZ SERVER V10.24.exe
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\bin\Debug\AZ SERVER V10.24.pdb
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ SERVER V10.24.exe.manifest
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ SERVER V10.24.application
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ SERVER V10.24.exe
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ SERVER V10.24.pdb
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.socialmedia.resources
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.reportbug.resources
+C:\Users\Administrator\source\repos\AZ SERVER\AZ SERVER\obj\Debug\AZ_SERVER.checkupdate.resources

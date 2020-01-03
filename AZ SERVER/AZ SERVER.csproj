@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C312D86-BCAE-43CD-A877-838DB3E6418F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AZ_SERVER</RootNamespace>
+    <AssemblyName>AZ SERVER V10.24</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Administrator\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>10.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FA15F1BCDE9BFEFFBCB84FC6088959F5EBCB3DD4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AZ SERVER_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_Umw_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="checkupdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkupdate.Designer.cs">
+      <DependentUpon>checkupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Closedialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Closedialog.Designer.cs">
+      <DependentUpon>Closedialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportbug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportbug.Designer.cs">
+      <DependentUpon>reportbug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="socialmedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="socialmedia.Designer.cs">
+      <DependentUpon>socialmedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formmain.Designer.cs">
+      <DependentUpon>Formmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistics.Designer.cs">
+      <DependentUpon>statistics.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="checkupdate.resx">
+      <DependentUpon>checkupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Closedialog.resx">
+      <DependentUpon>Closedialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportbug.resx">
+      <DependentUpon>reportbug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="socialmedia.resx">
+      <DependentUpon>socialmedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formmain.resx">
+      <DependentUpon>Formmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="statistics.resx">
+      <DependentUpon>statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AZ SERVER_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HTMLPage1.html" />
+    <Content Include="logo_Umw_icon.ico" />
+    <None Include="Resources\delete_64px1.png" />
+    <None Include="Resources\minimize_ww_64px2.png" />
+    <None Include="Resources\LOGO22.png" />
+    <None Include="Resources\231212.png" />
+    <None Include="Resources\LOGO21.png" />
+    <None Include="Resources\minimize_ww_64px1.png" />
+    <None Include="Resources\background-host-11.jpg" />
+    <None Include="Resources\server-mat-bao-3.png" />
+    <None Include="Resources\231211.png" />
+    <None Include="Resources\23121.png" />
+    <None Include="Resources\minimize_ww_64px.png" />
+    <None Include="Resources\delete_64px.png" />
+    <None Include="Resources\close_window_64pxx.png" />
+    <None Include="Resources\dims.png" />
+    <None Include="Resources\minimize_window_64px.png" />
+    <None Include="Resources\close_window_64px.png" />
+    <None Include="Resources\123.png" />
+    <None Include="Resources\instagram_128px4.png" />
+    <None Include="Resources\instagram_128px3.png" />
+    <None Include="Resources\instagram_128px2.png" />
+    <None Include="Resources\instagram_128px1.png" />
+    <None Include="Resources\zalo_100px1.png" />
+    <None Include="Resources\zalo_100px.png" />
+    <None Include="Resources\line_96px.png" />
+    <None Include="Resources\instagram_128px.png" />
+    <None Include="Resources\gmail_96px.png" />
+    <None Include="Resources\facebook_old_96px.png" />
+    <None Include="Resources\facebook_messenger_100px.png" />
+    <None Include="Resources\background-host-1.jpg" />
+    <None Include="Resources\LOGO2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
