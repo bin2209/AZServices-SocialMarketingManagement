@@ -7,14 +7,15 @@ AZServices is a Social Marketing Management tool built in C#. It provides featur
 Advertisement Management: Add advertisements to website footers easily.
 Facebook Account Management: Scan and manage lists of Facebook accounts efficiently.
 Admin Panel: Administrative interface for system configuration and management.
+
 # Technologies Used
 
 C#: Core programming language for backend development.
-ASP.NET Core: Framework for building web applications.
 Entity Framework Core: Object-relational mapping (ORM) framework for database interactions.
 SQL Server: Relational database management system for storing application data.
 HTML/CSS: Frontend markup and styling.
 JavaScript: Enhancing user interactions on the client side.
+
 # How to Use
 
 Clone the repository to your local machine.
